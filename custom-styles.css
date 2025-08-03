@@ -3,3 +3,30 @@
     border: 1px solid #333333;
     border-radius: 6px;
 }
+
+.b-cart{
+    display: none;
+}
+
+.l-main-container{
+    background-color: #FAF5F2;
+}
+
+.b-result-item{
+    background-color: #FAF5F2;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.s-btn--link{
+    color: #333333;
+}
+
+.price-variants .variant:hover{
+    background-color: transparent;
+}
+
+.s-btn--primary, .b-result-item__view-more-btn{
+    background-color: #333333;
+    color: white;
+}
