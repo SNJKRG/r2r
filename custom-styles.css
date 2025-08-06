@@ -167,15 +167,16 @@ body{
 .price-variants .variant:hover{
     background-color: transparent;
 }
-
-.s-btn--primary, .b-result-item__view-more-btn{
-    background-color: #333333;
-    color: white;
+.s-btn--primary, .b-result-item__view-more-btn, .s-btn--login {
+    background-color: #333333 !important;
+    color: white !important;
     border-radius: 30px;
 }
 
 .s-btn--primary:hover,
-.b-result-item__view-more-btn:hover {
+.b-result-item__view-more-btn:hover,
+.s-btn--login:hover
+{
     background-color: inherit;
     color: #333333;
     border: 1px solid #333333;
@@ -193,6 +194,12 @@ body{
 
 .b-filter__field-label{
     font-family: 'TildaSans', sans-serif;
+    font-size: 14px;
+}
+
+.b-roomitem__field--label{
+    font-family: 'TildaSans', sans-serif;
+    font-size: 14px;
 }
 
 .b-mob-bottom-bar .s-btn{
@@ -250,8 +257,8 @@ body{
 }
 
 input[type="text"], input[type="password"]{
-    border: 1px solid #333333;
-    border-radius: 6px;
+    border: 1px solid #333333 !important;
+    border-radius: 6px !important;
 }
 
 a{
@@ -305,4 +312,49 @@ a{
 .b-start__field .b-select-ghost{
     width: calc(78% - 50px);
     min-width: 100px;
+}
+
+.b-result-item__services-item-tooltip{
+    background-color: #333333;
+    border-bottom: 2px solid white;
+    color: #FAF5F2;;
+}
+
+
+.b-dialog__top-bar{
+    background-color: #FAF5F2;
+}
+
+.b-dialog__title{
+    font-family: 'Mediator';
+    font-size: 20px;
+}
+
+.b-field-row__label{
+    font-size: 14px;
+    font-family: 'Tilda Sans';
+}
+
+.b-roomitem__title{
+    font-size: 16px;
+    font-family: 'Mediator';
+}
+
+textarea {
+    border: 1px solid #333333;
+    border-radius: 6px;
+    background-color: #FAF5F2;
+}
+
+textarea:focus,
+textarea:active {
+    border: 1px solid #8B4513;
+}
+
+.b-available-dates__price{
+    background-color: #FAF5F2;
+}
+
+.b-available-dates table tbody tr td{
+    border: 1px solid #333333;
 }
