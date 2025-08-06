@@ -127,7 +127,9 @@
        url('https://static.tildacdn.com/fonts/mediator/Mediator-Bold.woff') format('woff');
 }
 
-
+body{
+    font-family: 'TildaSans', sans-serif;
+}
 
 .b-filter{
     background-color: #FAF5F2;
@@ -168,6 +170,8 @@
 .s-btn--primary:hover,
 .b-result-item__view-more-btn:hover {
     background-color: inherit;
+    color: #333333;
+    border: 1px solid #333333;
 }
 
 .b-result-item__name{
@@ -184,13 +188,70 @@
     font-family: 'TildaSans', sans-serif;
 }
 
-.b-mob-bottom-bar .s-btn:hover{
+.b-mob-bottom-bar .s-btn{
     background-color: #333333;
     color: white;
     border-radius: 0 6px 6px 0;
+    
+}
+
+.b-mob-bottom-bar .s-btn:hover{
+    background-color: white;
+    color: #333333;
+    border: 1px solid #333333;
 }
 
 .b-result-item__description{
     font-family: 'TildaSans', sans-serif;
     font-size: 16px;
+}
+
+.b-filter + .b-filter{
+    margin-top: 0px !important;
+}
+
+.b-start{
+    background-color: #FAF5F2;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.b-start__field-label{
+    font-family: 'TildaSans', sans-serif;
+    font-size: 14px;
+}
+
+.b-select-ghost{
+    border: 1px solid #333333;
+    border-radius: 6px;
+    color: #333333;
+}
+
+.l-panel2__title-icon{
+    background-color: #FAF5F2;
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.l-panel2{
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.l-panel2__title-text{
+    font-family: 'Mediator', serif;
+}
+
+input[type="text"], input[type="password"]{
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+a{
+    color: #333333;
+}
+
+.navigator-link{
+    color: #333333;
+    text-decoration: underline;
 }
