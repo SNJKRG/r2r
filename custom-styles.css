@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+
 @font-face {
   font-family: 'TildaSans';
   font-style: normal;
@@ -83,15 +85,17 @@
        url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Black.woff') format('woff');
 }
 
+
 @font-face {
   font-family: 'Mediator';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('https://static.tildacdn.com/fonts/mediator/Mediator-Regular.eot');
-  src: url('https://static.tildacdn.com/fonts/mediator/Mediator-Regular.eot?#iefix') format('embedded-opentype'),
-       url('https://static.tildacdn.com/fonts/mediator/Mediator-Regular.woff2') format('woff2'),
-       url('https://static.tildacdn.com/fonts/mediator/Mediator-Regular.woff') format('woff');
+  src: local('Mediator Regular'), 
+       local('Crimson Text Regular'), 
+       local('CrimsonText-Regular'),
+       local('Georgia'),
+       local('Times New Roman');
 }
 
 @font-face {
@@ -99,10 +103,11 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('https://static.tildacdn.com/fonts/mediator/Mediator-Medium.eot');
-  src: url('https://static.tildacdn.com/fonts/mediator/Mediator-Medium.eot?#iefix') format('embedded-opentype'),
-       url('https://static.tildacdn.com/fonts/mediator/Mediator-Medium.woff2') format('woff2'),
-       url('https://static.tildacdn.com/fonts/mediator/Mediator-Medium.woff') format('woff');
+  src: local('Mediator Medium'), 
+       local('Crimson Text Medium'), 
+       local('CrimsonText-Medium'),
+       local('Georgia'),
+       local('Times New Roman');
 }
 
 @font-face {
@@ -110,10 +115,11 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('https://static.tildacdn.com/fonts/mediator/Mediator-Semibold.eot');
-  src: url('https://static.tildacdn.com/fonts/mediator/Mediator-Semibold.eot?#iefix') format('embedded-opentype'),
-       url('https://static.tildacdn.com/fonts/mediator/Mediator-Semibold.woff2') format('woff2'),
-       url('https://static.tildacdn.com/fonts/mediator/Mediator-Semibold.woff') format('woff');
+  src: local('Mediator SemiBold'), 
+       local('Crimson Text SemiBold'), 
+       local('CrimsonText-SemiBold'),
+       local('Georgia Bold'),
+       local('Times New Roman Bold');
 }
 
 @font-face {
@@ -121,14 +127,15 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('https://static.tildacdn.com/fonts/mediator/Mediator-Bold.eot');
-  src: url('https://static.tildacdn.com/fonts/mediator/Mediator-Bold.eot?#iefix') format('embedded-opentype'),
-       url('https://static.tildacdn.com/fonts/mediator/Mediator-Bold.woff2') format('woff2'),
-       url('https://static.tildacdn.com/fonts/mediator/Mediator-Bold.woff') format('woff');
+  src: local('Mediator Bold'), 
+       local('Crimson Text Bold'), 
+       local('CrimsonText-Bold'),
+       local('Georgia Bold'),
+       local('Times New Roman Bold');
 }
 
 body{
-    font-family: 'TildaSans', sans-serif;
+    font-family: 'TildaSans', sans-serif !important;
 }
 
 .b-filter{
@@ -176,12 +183,12 @@ body{
 
 .b-result-item__name{
     font-size: 32px;
-    font-family: 'Mediator', serif;
+    font-family: 'Mediator', 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
 }
 
 .b-filter__title{
     font-size: 16px;
-    font-family: 'Mediator', serif;
+    font-family: 'Mediator', 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
 }
 
 .b-filter__field-label{
@@ -239,7 +246,7 @@ body{
 }
 
 .l-panel2__title-text{
-    font-family: 'Mediator', serif;
+    font-family: 'Mediator', 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
 }
 
 input[type="text"], input[type="password"]{
@@ -254,4 +261,48 @@ a{
 .navigator-link{
     color: #333333;
     text-decoration: underline;
+}
+
+.panel{
+    border: 1px solid #333333;
+    border-radius: 6px;
+}
+
+.panel-title{
+    font-family: 'Mediator', 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+}
+
+.link{
+    color: #333333;
+    text-decoration: underline;
+}
+
+.reservation-part:not(:last-child){
+    border-bottom-color: #333333;
+}
+
+.reservation-part.summary{
+    background-color: #FAF5F2;
+}
+
+.central-panel.divider:not(:last-child){
+    border-bottom: 1px solid #333333;
+}
+
+.b-checkbox label:before{
+    border: 1px solid #333333;
+}
+
+.select2-container .select2-selection{
+    border: 1px solid #333333;
+}
+
+.l-start__content{
+    width: 78vw;
+    margin: 0 auto;
+}
+
+.b-start__field .b-select-ghost{
+    width: calc(78% - 50px);
+    min-width: 100px;
 }
