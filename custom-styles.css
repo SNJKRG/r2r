@@ -233,12 +233,23 @@ body{
 .b-start__field-label{
     font-family: 'TildaSans', sans-serif;
     font-size: 14px;
+    color: #FAF5F2;
+}
+
+.b-start__field .b-select-ghost{
+    background-color: #FAF5F2;
 }
 
 .b-select-ghost{
     border: 1px solid #333333;
     border-radius: 6px;
     color: #333333;
+}
+
+.b-start__submit-field button{
+    background-color: #FAF5F2 !important;
+    color: #333333 !important;
+    width: 164px;
 }
 
 .l-panel2__title-icon{
@@ -322,7 +333,9 @@ a{
 
 
 .b-dialog__top-bar{
-    background-color: #FAF5F2;
+    background-color: #FAF5F2 !important;
+    font-size: 20px !important;
+    font-family: 'Mediator';
 }
 
 .b-dialog__title{
@@ -348,7 +361,7 @@ textarea {
 
 textarea:focus,
 textarea:active {
-    border: 1px solid #8B4513;
+    border: 1px solid #8B4513 !important;
 }
 
 .b-available-dates__price{
@@ -357,4 +370,18 @@ textarea:active {
 
 .b-available-dates table tbody tr td{
     border: 1px solid #333333;
+}
+
+.b-buttons button{
+    background-color: #333333;
+    color: #FAF5F2;
+    border-radius: 6px;
+    width: 164px;
+}
+
+.b-field-row__field input{
+    background-color: #FAF5F2 !important;
+    border: 1px solid #333333 !important;
+    border-radius: 6px !important;
+    color: #333333 !important;
 }
