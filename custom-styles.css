@@ -225,7 +225,7 @@ body{
 }
 
 .b-start{
-    background-color: #FAF5F2;
+    background-color: #333333;
     border: 1px solid #333333;
     border-radius: 6px;
 }
@@ -385,3 +385,19 @@ textarea:active {
     border-radius: 6px !important;
     color: #333333 !important;
 }
+
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border: 1px solid #333333;
+    background-color: #FAF5F2;
+    color: #333333;
+}
+
+.ui-datepicker .ui-datepicker-next::after{
+    color: #333333;
+}
+
+.ui-datepicker .ui-datepicker-prev::after{
+    color: #333333;
+}
+
