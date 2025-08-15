@@ -161,13 +161,19 @@ body{
 }
 
 .s-btn--link{
-    color: #333333;
+    color: #333333 !important;
 }
 
 .price-variants .variant:hover{
     background-color: transparent;
 }
 .s-btn--primary, .b-result-item__view-more-btn, .s-btn--login {
+    background-color: #333333 !important;
+    color: white !important;
+    border-radius: 30px;
+}
+
+.b-roooms button{
     background-color: #333333 !important;
     color: white !important;
     border-radius: 30px;
@@ -228,11 +234,12 @@ body{
     background-color: #333333;
     border: 1px solid #333333;
     border-radius: 6px;
+    align-items: flex-end;
 }
 
 .b-start__field-label{
     font-family: 'TildaSans', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #FAF5F2;
 }
 
@@ -249,7 +256,8 @@ body{
 .b-start__submit-field button{
     background-color: #FAF5F2 !important;
     color: #333333 !important;
-    width: 164px;
+    width: 220px;
+    height: 42px;
 }
 
 .l-panel2__title-icon{
@@ -316,13 +324,15 @@ a{
 }
 
 .l-start__content{
-    width: 78vw;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .b-start__field .b-select-ghost{
-    width: calc(78% - 50px);
+    width: calc(100% - 50px);
     min-width: 100px;
+    padding: 20px;
 }
 
 .b-result-item__services-item-tooltip{
@@ -401,3 +411,52 @@ textarea:active {
     color: #333333;
 }
 
+.b-start__field{
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border: 1px solid #333333;
+    background-color: #FAF5F2;
+    color: #333333;
+    border-radius: 30px;
+}
+
+.b-input-spinner input{
+    border-radius: 6px;
+    border: 1px solid #333333;
+    background-color: #FAF5F2;
+}
+
+.b-input-spinner--adults button{
+    color: #333333 !important; 
+}
+
+.b-roomitem__field--btn button{
+    color: #333333 !important;
+}
+
+.l-footer{
+    display: none;
+}
+
+.scw-loader{
+    font-size: 32px;
+    color: #333333;
+    font-weight: 600;
+    font-family: 'Mediator';
+    background-color: #FAF5F2;
+}
+
+.scw-loader-icon{
+    width: 64px;
+    height: 64px;
+    border: 5px solid #333333;
+    margin-bottom: 32px;
+}
+
+.select2-container .select2-results__option--highlighted.select2-results__option--selectable{
+    color: #FAF5F2;
+    background-color: #333333;
+}
