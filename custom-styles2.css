@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+
+@font-face {
+  font-family: 'TildaSans';
+  font-style: normal;
+  font-weight: 250 1000;
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff2') format('woff2-variations'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff') format('woff-variations');     
+}
+@font-face {
+  font-family: 'TildaSans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Light.eot');
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Light.eot?#iefix') format('embedded-opentype'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff2') format('woff2-variations'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff') format('woff-variations'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Light.woff2') format('woff2'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'TildaSans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Regular.eot');
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff2') format('woff2-variations'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff') format('woff-variations'),  
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Regular.woff2') format('woff2'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'TildaSans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Medium.eot');
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Medium.eot?#iefix') format('embedded-opentype'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff2') format('woff2-variations'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff') format('woff-variations'),  
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Medium.woff2') format('woff2'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'TildaSans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Semibold.eot');
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff2') format('woff2-variations'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff') format('woff-variations'),  
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Semibold.woff2') format('woff2'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Semibold.woff') format('woff');
+}
+@font-face {
+  font-family: 'TildaSans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Bold.eot');
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff2') format('woff2-variations'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff') format('woff-variations'),  
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Bold.woff2') format('woff2'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'TildaSans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Extrabold.eot');
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Extrabold.eot?#iefix') format('embedded-opentype'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff2') format('woff2-variations'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff') format('woff-variations'),  
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Extrabold.woff2') format('woff2'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Extrabold.woff') format('woff');
+}
+@font-face {
+  font-family: 'TildaSans';
+  font-style: normal;
+  font-weight: 900;
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Black.eot');
+  src: url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Black.eot?#iefix') format('embedded-opentype'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff2') format('woff2-variations'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-VF.woff') format('woff-variations'),  
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Black.woff2') format('woff2'),
+       url('https://static.tildacdn.com/fonts/tildasans/TildaSans-Black.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Mediator';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Mediator Regular'), 
+       local('Crimson Text Regular'), 
+       local('CrimsonText-Regular'),
+       local('Georgia'),
+       local('Times New Roman');
+}
+
+@font-face {
+  font-family: 'Mediator';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Mediator Medium'), 
+       local('Crimson Text Medium'), 
+       local('CrimsonText-Medium'),
+       local('Georgia'),
+       local('Times New Roman');
+}
+
+@font-face {
+  font-family: 'Mediator';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Mediator SemiBold'), 
+       local('Crimson Text SemiBold'), 
+       local('CrimsonText-SemiBold'),
+       local('Georgia Bold'),
+       local('Times New Roman Bold');
+}
+
+@font-face {
+  font-family: 'Mediator';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Mediator Bold'), 
+       local('Crimson Text Bold'), 
+       local('CrimsonText-Bold'),
+       local('Georgia Bold'),
+       local('Times New Roman Bold');
+}
+
+body{
+    font-family: 'TildaSans', sans-serif !important;
+}
+
+.b-filter{
+    background-color: #FFFFFF;
+    border: 1px solid #1C1B45;
+    border-radius: 6px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.b-cart{
+    display: none;
+}
+
+.l-main-container{
+    background-color: #FFFFFF;
+}
+
+.b-result-item{
+    background-color: #FFFFFF;
+    border: 1px solid #1C1B45;
+    border-radius: 6px;
+}
+
+.s-btn--link{
+    color: #1C1B45 !important;
+}
+
+.price-variants .variant:hover{
+    background-color: transparent;
+}
+.s-btn--primary, .b-result-item__view-more-btn, .s-btn--login {
+    background-color: #1C1B45 !important;
+    color: white !important;
+    border-radius: 30px;
+}
+
+.b-roooms button{
+    background-color: #1C1B45 !important;
+    color: white !important;
+    border-radius: 30px;
+}
+
+.s-btn--primary:hover,
+.b-result-item__view-more-btn:hover,
+.s-btn--login:hover
+{
+    background-color: inherit;
+    color: #1C1B45;
+    border: 1px solid #1C1B45;
+}
+
+.b-result-item__name{
+    font-size: 32px;
+    font-family: 'Mediator', 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+}
+
+.b-filter__title{
+    font-size: 16px;
+    font-family: 'Mediator', 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+}
+
+.b-filter__field-label{
+    font-family: 'TildaSans', sans-serif;
+    font-size: 14px;
+}
+
+.b-roomitem__field--label{
+    font-family: 'TildaSans', sans-serif;
+    font-size: 14px;
+}
+
+.b-mob-bottom-bar .s-btn{
+    background-color: #1C1B45;
+    color: white;
+    border-radius: 0 6px 6px 0;
+    
+}
+
+.b-mob-bottom-bar .s-btn:hover{
+    background-color: white;
+    color: #1C1B45;
+    border: 1px solid #1C1B45;
+}
+
+.b-result-item__description{
+    font-family: 'TildaSans', sans-serif;
+    font-size: 16px;
+}
+
+.b-filter + .b-filter{
+    margin-top: 0px !important;
+}
+
+.b-start{
+    background-color: #1C1B45;
+    border: 1px solid #1C1B45;
+    border-radius: 6px;
+    align-items: flex-end;
+}
+
+.b-start__field-label{
+    font-family: 'TildaSans', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.b-start__field .b-select-ghost{
+    background-color: #FFFFFF;
+}
+
+.b-select-ghost{
+    border: 1px solid #1C1B45;
+    border-radius: 6px;
+    color: #1C1B45;
+}
+
+.b-start__submit-field button{
+    background-color: #FFFFFF !important;
+    color: #1C1B45 !important;
+    width: 220px;
+    height: 42px;
+}
+
+.l-panel2__title-icon{
+    background-color: #FFFFFF;
+    border: 1px solid #1C1B45;
+    border-radius: 6px;
+}
+
+.l-panel2{
+    border: 1px solid #1C1B45;
+    border-radius: 6px;
+}
+
+.l-panel2__title-text{
+    font-family: 'Mediator', 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type="text"], input[type="password"]{
+    border: 1px solid #1C1B45 !important;
+    border-radius: 6px !important;
+}
+
+a{
+    color: #1C1B45;
+}
+
+.navigator-link{
+    color: #1C1B45;
+    text-decoration: underline;
+}
+
+.panel{
+    border: 1px solid #1C1B45;
+    border-radius: 6px;
+}
+
+.panel-title{
+    font-family: 'Mediator', 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+}
+
+.link{
+    color: #1C1B45;
+    text-decoration: underline;
+}
+
+.reservation-part:not(:last-child){
+    border-bottom-color: #1C1B45;
+}
+
+.reservation-part.summary{
+    background-color: #FFFFFF;
+}
+
+.central-panel.divider:not(:last-child){
+    border-bottom: 1px solid #1C1B45;
+}
+
+.b-checkbox label:before{
+    border: 1px solid #1C1B45;
+}
+
+.select2-container .select2-selection{
+    border: 1px solid #1C1B45;
+}
+
+.l-start__content{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.b-start__field .b-select-ghost{
+    width: calc(100% - 50px);
+    min-width: 100px;
+    padding: 20px;
+}
+
+.b-result-item__services-item-tooltip{
+    background-color: #1C1B45;
+    border-bottom: 2px solid white;
+    color: #FFFFFF;;
+}
+
+
+.b-dialog__top-bar{
+    background-color: #FFFFFF !important;
+    font-size: 20px !important;
+    font-family: 'Mediator';
+}
+
+.b-dialog__title{
+    font-family: 'Mediator';
+    font-size: 20px;
+}
+
+.b-field-row__label{
+    font-size: 14px;
+    font-family: 'Tilda Sans';
+}
+
+.b-roomitem__title{
+    font-size: 16px;
+    font-family: 'Mediator';
+}
+
+textarea {
+    border: 1px solid #1C1B45;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+
+textarea:focus,
+textarea:active {
+    border: 1px solid #8B4513 !important;
+}
+
+.b-available-dates__price{
+    background-color: #FFFFFF;
+}
+
+.b-available-dates table tbody tr td{
+    border: 1px solid #1C1B45;
+}
+
+.b-buttons button{
+    background-color: #1C1B45;
+    color: #FFFFFF;
+    border-radius: 6px;
+    width: 164px;
+}
+
+.b-field-row__field input{
+    background-color: #FFFFFF !important;
+    border: 1px solid #1C1B45 !important;
+    border-radius: 6px !important;
+    color: #1C1B45 !important;
+}
+
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border: 1px solid #1C1B45;
+    background-color: #FFFFFF;
+    color: #1C1B45;
+}
+
+.ui-datepicker .ui-datepicker-next::after{
+    color: #1C1B45;
+}
+
+.ui-datepicker .ui-datepicker-prev::after{
+    color: #1C1B45;
+}
+
+.b-start__field{
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border: 1px solid #1C1B45;
+    background-color: #FFFFFF;
+    color: #1C1B45;
+    border-radius: 30px;
+}
+
+.b-input-spinner input{
+    border-radius: 6px;
+    border: 1px solid #1C1B45;
+    background-color: #FFFFFF;
+}
+
+.b-input-spinner--adults button{
+    color: #1C1B45 !important; 
+}
+
+.b-roomitem__field--btn button{
+    color: #1C1B45 !important;
+}
+
+.l-footer{
+    display: none;
+}
+
+.scw-loader{
+    font-size: 32px;
+    color: #1C1B45;
+    font-weight: 600;
+    font-family: 'Mediator';
+    background-color: #FFFFFF;
+}
+
+.scw-loader-icon{
+    width: 64px;
+    height: 64px;
+    border: 5px solid #1C1B45;
+    margin-bottom: 32px;
+}
+
+.select2-container .select2-results__option--highlighted.select2-results__option--selectable{
+    color: #FFFFFF;
+    background-color: #1C1B45;
+}
